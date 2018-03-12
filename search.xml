@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[three-chapter-img]]></title>
+    <url>%2F2018%2F03%2F12%2Fthree-chapter-img%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[three-chapter-1]]></title>
+    <url>%2F2018%2F03%2F12%2Fthree-chapter-1%2F</url>
+    <content type="text"><![CDATA[three入门章总结 在Three.js中，要渲染物体到网页中，我们需要3个要素：场景（scene）、相机（camera）和渲染器（renderer）。有了这三样东西，才能将物体渲染到网页中去。 错综复杂的三角关系1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示 脑洞：摆拍达人 —— 赵大流，做了精致的午餐，是时候秀一波了！他把场景定在了砧板上，上面摆上了他的食材——萝卜，青菜，辣椒，拿起了他前不久刚入手的单反相机，左一个角度，右一个角度拍了好久，然后将拍好的照片全部晒在了朋友圈。]]></content>
+      <tags>
+        <tag>three.js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[github]]></title>
     <url>%2F2018%2F03%2F05%2Fgithub%2F</url>
     <content type="text"></content>

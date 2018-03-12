@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lianjion.github.io/"/>
-  <updated>2018-03-05T11:34:15.879Z</updated>
+  <updated>2018-03-12T11:51:02.517Z</updated>
   <id>https://lianjion.github.io/</id>
   
   <author>
@@ -17,11 +17,49 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>three-chapter-img</title>
+    <link href="https://lianjion.github.io/2018/03/12/three-chapter-img/"/>
+    <id>https://lianjion.github.io/2018/03/12/three-chapter-img/</id>
+    <published>2018-03-12T11:51:02.000Z</published>
+    <updated>2018-03-12T11:51:02.517Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>three-chapter-1</title>
+    <link href="https://lianjion.github.io/2018/03/12/three-chapter-1/"/>
+    <id>https://lianjion.github.io/2018/03/12/three-chapter-1/</id>
+    <published>2018-03-12T11:40:11.000Z</published>
+    <updated>2018-03-12T11:53:02.905Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="three入门章总结"><a href="#three入门章总结" class="headerlink" title="three入门章总结"></a>three入门章总结</h3><blockquote><p>在Three.js中，要渲染物体到网页中，我们需要3个要素：场景（scene）、相机（camera）和渲染器（renderer）。有了这三样东西，才能将物体渲染到网页中去。</p></blockquote><h4 id="错综复杂的三角关系"><a href="#错综复杂的三角关系" class="headerlink" title="错综复杂的三角关系"></a>错综复杂的三角关系</h4><h6 id="1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。"><a href="#1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。" class="headerlink" title="1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。"></a>1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。</h6><h6 id="2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。"><a href="#2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。" class="headerlink" title="2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。"></a>2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。</h6><h6 id="3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示"><a href="#3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示" class="headerlink" title="3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示"></a>3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示</h6><blockquote><p>脑洞：摆拍达人 —— 赵大流，做了精致的午餐，是时候秀一波了！他把场景定在了砧板上，上面摆上了他的食材——萝卜，青菜，辣椒，拿起了他前不久刚入手的单反相机，左一个角度，右一个角度拍了好久，然后将拍好的照片全部晒在了朋友圈。</p></blockquote><p><img src="/2018/03/12/three-chapter-1/three-chapter-img/one.png" alt="three.js三剑客"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;three入门章总结&quot;&gt;&lt;a href=&quot;#three入门章总结&quot; class=&quot;headerlink&quot; title=&quot;three入门章总结&quot;&gt;&lt;/a&gt;three入门章总结&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;在Three.js中，要渲染物体到网页中，我们需要
+      
+    
+    </summary>
+    
+    
+      <category term="three.js" scheme="https://lianjion.github.io/tags/three-js/"/>
+    
+  </entry>
+  
+  <entry>
     <title>github</title>
     <link href="https://lianjion.github.io/2018/03/05/github/"/>
     <id>https://lianjion.github.io/2018/03/05/github/</id>
     <published>2018-03-05T11:31:33.000Z</published>
-    <updated>2018-03-05T11:34:15.879Z</updated>
+    <updated>2018-03-06T01:04:36.056Z</updated>
     
     <summary type="html">
     
