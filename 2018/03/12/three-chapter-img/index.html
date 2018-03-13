@@ -96,17 +96,19 @@
 
 
 
-<meta name="description" content="中二戏精的日常">
+<meta name="description" content="three入门章总结 在Three.js中，要渲染物体到网页中，我们需要3个要素：场景（scene）、相机（camera）和渲染器（renderer）。有了这三样东西，才能将物体渲染到网页中去。  错综复杂的三角关系1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体1234va">
 <meta property="og:type" content="article">
 <meta property="og:title" content="three-chapter-img">
 <meta property="og:url" content="https://lianjion.github.io/2018/03/12/three-chapter-img/index.html">
 <meta property="og:site_name" content="浪荡起来">
-<meta property="og:description" content="中二戏精的日常">
+<meta property="og:description" content="three入门章总结 在Three.js中，要渲染物体到网页中，我们需要3个要素：场景（scene）、相机（camera）和渲染器（renderer）。有了这三样东西，才能将物体渲染到网页中去。  错综复杂的三角关系1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体1234va">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-12T11:51:02.517Z">
+<meta property="og:image" content="https://lianjion.github.io/2018/03/12/three-chapter-img/one.png">
+<meta property="og:updated_time" content="2018-03-13T01:11:14.084Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="three-chapter-img">
-<meta name="twitter:description" content="中二戏精的日常">
+<meta name="twitter:description" content="three入门章总结 在Three.js中，要渲染物体到网页中，我们需要3个要素：场景（scene）、相机（camera）和渲染器（renderer）。有了这三样东西，才能将物体渲染到网页中去。  错综复杂的三角关系1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体1234va">
+<meta name="twitter:image" content="https://lianjion.github.io/2018/03/12/three-chapter-img/one.png">
 
 
 
@@ -375,7 +377,40 @@
       
 
       
-        
+        <h2 id="three入门章总结"><a href="#three入门章总结" class="headerlink" title="three入门章总结"></a>three入门章总结</h2><blockquote>
+<p>在Three.js中，要渲染物体到网页中，我们需要3个要素：场景（scene）、相机（camera）和渲染器（renderer）。有了这三样东西，才能将物体渲染到网页中去。</p>
+</blockquote>
+<h3 id="错综复杂的三角关系"><a href="#错综复杂的三角关系" class="headerlink" title="错综复杂的三角关系"></a>错综复杂的三角关系</h3><h4 id="1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体"><a href="#1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体" class="headerlink" title="1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体"></a>1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> scene = <span class="keyword">new</span> THREE.Scene();</span><br><span class="line"><span class="comment">// 把apple放到场景中</span></span><br><span class="line">scene.add(apple);</span><br></pre></td></tr></table></figure>
+<h4 id="2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。就像人的眼睛一样，人站在不同位置，抬头或者低头都能够看到不同的景色。"><a href="#2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。就像人的眼睛一样，人站在不同位置，抬头或者低头都能够看到不同的景色。" class="headerlink" title="2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。就像人的眼睛一样，人站在不同位置，抬头或者低头都能够看到不同的景色。"></a>2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。就像人的眼睛一样，人站在不同位置，抬头或者低头都能够看到不同的景色。</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> camera = <span class="keyword">new</span> THREE.PerspectiveCamera(<span class="number">75</span>, <span class="built_in">window</span>.innerWidth/<span class="built_in">window</span>.innerHeight, <span class="number">0.1</span>, <span class="number">1000</span>);    <span class="comment">// 透视相机</span></span><br><span class="line"></span><br><span class="line">camera.position.z = <span class="number">5</span>;      <span class="comment">// 设置相机角度</span></span><br></pre></td></tr></table></figure>
+<h4 id="3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示"><a href="#3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示" class="headerlink" title="3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示"></a>3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示</h4><h5 id="渲染形式"><a href="#渲染形式" class="headerlink" title="渲染形式"></a>渲染形式</h5><p><em>1</em> 离线渲染</p>
+<p><em>2</em> 实时渲染：需要不停的对画面进行渲染，即使画面中什么也没有改变，也在重新渲染。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> renderer = <span class="keyword">new</span> THREE.WebGLRenderer();</span><br><span class="line">renderer.setClearColor(xx);     <span class="comment">//设置渲染器的背景</span></span><br><span class="line">renderer.setSize(<span class="built_in">window</span>.innerWidth, <span class="built_in">window</span>.innerHeight);  <span class="comment">//设置渲染出的场景尺寸</span></span><br><span class="line">renderer.render(scene, camera);</span><br><span class="line"><span class="comment">// 一切都是由相机决定的，它想看的什么场景，场景中 的什么，那么渲染器就会把对应的部分渲染出来</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>脑洞：摆拍达人 —— 赵大流，做了精致的午餐，是时候秀一波了！他把场景定在了砧板上，上面摆上了他的食材——萝卜，青菜，辣椒，拿起了他前不久刚入手的单反相机，左一个角度，右一个角度拍了好久，然后将拍好的照片全部晒在了朋友圈。</p>
+</blockquote>
+<p><img src="/2018/03/12/three-chapter-img/one.png" alt="three.js三剑客"></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> scene = <span class="keyword">new</span> THREE.Scene();  <span class="comment">// 场景</span></span><br><span class="line"><span class="keyword">var</span> camera = <span class="keyword">new</span> THREE.PerspectiveCamera(<span class="number">75</span>, <span class="built_in">window</span>.innerWidth/<span class="built_in">window</span>.innerHeight, <span class="number">0.1</span>, <span class="number">1000</span>);<span class="comment">// 透视相机</span></span><br><span class="line"><span class="keyword">var</span> renderer = <span class="keyword">new</span> THREE.WebGLRenderer();   <span class="comment">// 渲染器</span></span><br><span class="line">renderer.setSize(<span class="built_in">window</span>.innerWidth, <span class="built_in">window</span>.innerHeight);   <span class="comment">// 设置渲染器的大小为窗口的内宽度，也就是内容区的宽度</span></span><br><span class="line"><span class="comment">// 挂载到dom节点上</span></span><br><span class="line"><span class="built_in">document</span>.body.appendChild(renderer.domElement);</span><br></pre></td></tr></table></figure>
+<h3 id="简单的灯光、材质、阴影"><a href="#简单的灯光、材质、阴影" class="headerlink" title="简单的灯光、材质、阴影"></a>简单的灯光、材质、阴影</h3><h4 id="1-灯光"><a href="#1-灯光" class="headerlink" title="1 灯光"></a>1 灯光</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> spotLight = <span class="keyword">new</span> THREE.SpotLight(<span class="number">0xFFFFFF</span>);</span><br><span class="line">spotLight.position.set(<span class="number">-40</span>, <span class="number">40</span>, <span class="number">-15</span>);</span><br><span class="line">scene.add(spotLight); <span class="comment">// 灯光也需要添加到场景中</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 定义场景中某个光源可以产生阴影</span></span><br><span class="line">spotLight.castShadow = <span class="literal">true</span>;</span><br></pre></td></tr></table></figure>
+<h4 id="2-材质"><a href="#2-材质" class="headerlink" title="2 材质"></a>2 材质</h4><p><em>1</em> three.MeshBasicMaterial()</p>
+<blockquote>
+<p>基础材质,不会对场景中的光源产生反应，只会以指定颜色渲染物体</p>
+</blockquote>
+<p><em>2</em> three.MeshLambertMaterial() // 对光源产生反应</p>
+<p><em>3</em> three.MeshPhongMaterial()   // 对光源产生反应</p>
+<h4 id="3-阴影"><a href="#3-阴影" class="headerlink" title="3 阴影"></a>3 阴影</h4><blockquote>
+<p>要为有阴影的物体指定接受投影的物体</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 告诉渲染器需要阴影</span></span><br><span class="line">renderer.shadowMap.enabled = <span class="literal">true</span>;</span><br><span class="line"><span class="comment">// 定义场景中某个光源可以产生阴影</span></span><br><span class="line">spotLight.castShadow = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 针对物体单独设置阴影</span></span><br><span class="line">cube.castShadow = <span class="literal">true</span>; <span class="comment">// 投影</span></span><br><span class="line">plane.receiveShadow = <span class="literal">true</span>; <span class="comment">// 接受投影</span></span><br></pre></td></tr></table></figure>
+<h3 id="溯其本源"><a href="#溯其本源" class="headerlink" title="溯其本源"></a>溯其本源</h3><p>THREE.REVISION 版本号</p>
+<h3 id="坐标"><a href="#坐标" class="headerlink" title="坐标"></a>坐标</h3><p>左手反则，向心内旋转， 分别从x-y</p>
+<blockquote>
+<p>刚开始可能会不熟悉，所以axishelper坐标轴一定要画出来。</p>
+</blockquote>
+<p>绘制物体对象的坐标以中心点为标准。</p>
+<h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><h4 id="requestAnimationFrame"><a href="#requestAnimationFrame" class="headerlink" title="requestAnimationFrame()"></a>requestAnimationFrame()</h4><blockquote>
+<p>指定一个函数，按照浏览器定义的时间间隔调用, three.js里自带了这个方法可以直接用</p>
+</blockquote>
+
       
     </div>
     
@@ -459,8 +494,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -529,6 +573,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#three入门章总结"><span class="nav-number">1.</span> <span class="nav-text">three入门章总结</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#错综复杂的三角关系"><span class="nav-number">1.1.</span> <span class="nav-text">错综复杂的三角关系</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体"><span class="nav-number">1.1.1.</span> <span class="nav-text">1号选手：场景（scene）是一个物体的容器，开发者可以将需要的角色放入场景中，例如苹果、葡萄。同时，苹果、葡萄自身也管理着其在场景中的位置。它可以保持和跟踪想要渲染的物体</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。就像人的眼睛一样，人站在不同位置，抬头或者低头都能够看到不同的景色。"><span class="nav-number">1.1.2.</span> <span class="nav-text">2号选手：相机（camera）是面对场景，在场景中取一个合适的景，把它拍下来。就像人的眼睛一样，人站在不同位置，抬头或者低头都能够看到不同的景色。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示"><span class="nav-number">1.1.3.</span> <span class="nav-text">3号选手：渲染器（renderer）是将相机拍摄下来的图片，放到浏览器中去显示</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#渲染形式"><span class="nav-number">1.1.3.1.</span> <span class="nav-text">渲染形式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#简单的灯光、材质、阴影"><span class="nav-number">1.2.</span> <span class="nav-text">简单的灯光、材质、阴影</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-灯光"><span class="nav-number">1.2.1.</span> <span class="nav-text">1 灯光</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-材质"><span class="nav-number">1.2.2.</span> <span class="nav-text">2 材质</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-阴影"><span class="nav-number">1.2.3.</span> <span class="nav-text">3 阴影</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#溯其本源"><span class="nav-number">1.3.</span> <span class="nav-text">溯其本源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坐标"><span class="nav-number">1.4.</span> <span class="nav-text">坐标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#动画"><span class="nav-number">1.5.</span> <span class="nav-text">动画</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#requestAnimationFrame"><span class="nav-number">1.5.1.</span> <span class="nav-text">requestAnimationFrame()</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
