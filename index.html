@@ -309,6 +309,172 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://lianjion.github.io/2018/03/26/http/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lian">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="浪荡起来">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/26/http/" itemprop="url">http</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-26T14:07:54+08:00">
+                2018-03-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h3><h4 id="MIME-描述消息内容类型的因特网标准"><a href="#MIME-描述消息内容类型的因特网标准" class="headerlink" title="MIME: 描述消息内容类型的因特网标准"></a>MIME: 描述消息内容类型的因特网标准</h4><h4 id="URI：-统一资源标识符"><a href="#URI：-统一资源标识符" class="headerlink" title="URI： 统一资源标识符"></a>URI： 统一资源标识符</h4><p><a href="http://mff.st.edusoho.cn/test.png" target="_blank" rel="noopener">http://mff.st.edusoho.cn/test.png</a></p>
+<ul>
+<li>URL（统一资源定位符）: 说明了协议、服务器和本地资源</li>
+<li>URN （统一资源名）：与目前的资源所在地无关</li>
+</ul>
+<h5 id="http事务"><a href="#http事务" class="headerlink" title="http事务"></a>http事务</h5><ul>
+<li>从客户端 向服务端 发送到 请求命令 （ http请求报文）</li>
+<li>从服务器向客户端返回的响应命令    （ http响应报文）</li>
+</ul>
+<h5 id="http方法"><a href="#http方法" class="headerlink" title="http方法"></a>http方法</h5><blockquote>
+<p>请求命令又称为 http方法。 每个http请求报文都包含一个方法</p>
+</blockquote>
+<p>get: 从服务器向客户端发送命名的资源<br>put: 从客户端向服务器传送的数据 ，通常指定了资源的存放位置<br>DELETE: 从服务器中删除命名资源<br>POST: 将客户端的数据发送到服务器网关<br>HEAD: 仅仅发命名资源响应中的HTTP首部</p>
+<p>http响应报文 中会携带一个状态码</p>
+<blockquote>
+<p>一个web页面通常不是单个资源，而是一组资源的集合</p>
+</blockquote>
+<h5 id="报文"><a href="#报文" class="headerlink" title="报文"></a>报文</h5><h6 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h6><ul>
+<li>请求报文</li>
+<li><p>响应报文</p>
+<h6 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h6></li>
+<li><p>起始行  </p>
+</li>
+<li>首部字段</li>
+<li>主体： 数据</li>
+</ul>
+<h3 id="TCP-IP-模拟工具"><a href="#TCP-IP-模拟工具" class="headerlink" title="TCP/IP 模拟工具"></a>TCP/IP 模拟工具</h3><p><em>1</em>  telnet</p>
+<p><em>2</em> nc  netcat</p>
+<p><img src="/2018/03/26/http/./1521873845429.png" alt="Alt text"></p>
+<p><img src="/2018/03/26/http/./1521873875600.png" alt="Alt text"><br>Set-Cookie:online-uuid=EE66B808-C848-77DE-D9F2-0BB4BD5F91B1; path=/; httponly</p>
+<h3 id="HTTP首部字段"><a href="#HTTP首部字段" class="headerlink" title="HTTP首部字段"></a>HTTP首部字段</h3><h4 id="1-通用首部字段"><a href="#1-通用首部字段" class="headerlink" title="1 通用首部字段"></a>1 通用首部字段</h4><p><img src="/2018/03/26/http/./1522042644239.png" alt="Alt text"><br>Pragma:no-cache<br>Transfer-Encoding:chunked</p>
+<h4 id="2-请求首部字段"><a href="#2-请求首部字段" class="headerlink" title="2 请求首部字段"></a>2 请求首部字段</h4><p><img src="/2018/03/26/http/./1522042803652.png" alt="Alt text"><br>Host:mff.st.edusoho.cn<br>Referer:<a href="http://mff.st.edusoho.cn/course_set/1353/manage/base" target="_blank" rel="noopener">http://mff.st.edusoho.cn/course_set/1353/manage/base</a><br>User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36</p>
+<h4 id="3-响应首部字段"><a href="#3-响应首部字段" class="headerlink" title="3 响应首部字段"></a>3 响应首部字段</h4><p>Server:nginx/1.4.6 (Ubuntu)</p>
+<h4 id="4-实体首部字段"><a href="#4-实体首部字段" class="headerlink" title="4 实体首部字段"></a>4 实体首部字段</h4><p>Allow: 资源可支持的HTTP方法</p>
+<blockquote>
+<p>另外的分类方法， 端到端首部 和 逐跳首部</p>
+</blockquote>
+<h4 id="逐跳首部"><a href="#逐跳首部" class="headerlink" title="逐跳首部"></a>逐跳首部</h4><ul>
+<li>connectioin</li>
+<li>keep-alive</li>
+<li>proxy-authenticate</li>
+<li>proxy-authentication</li>
+<li>Trailer：报文末端的首部一览</li>
+<li>TE：传输编码的优先级</li>
+<li>Transfer-Encoding：指定报文主体的传输编码方式</li>
+<li>upgrade: 升级为其他协议</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://lianjion.github.io/2018/03/13/three-chapter-img-2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1382,7 +1548,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
