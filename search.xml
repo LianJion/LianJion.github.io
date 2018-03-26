@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[http-header]]></title>
+    <url>%2F2018%2F03%2F26%2Fhttp-header%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[http]]></title>
     <url>%2F2018%2F03%2F26%2Fhttp%2F</url>
     <content type="text"><![CDATA[HTTPMIME: 描述消息内容类型的因特网标准URI： 统一资源标识符http://mff.st.edusoho.cn/test.png URL（统一资源定位符）: 说明了协议、服务器和本地资源 URN （统一资源名）：与目前的资源所在地无关 http事务 从客户端 向服务端 发送到 请求命令 （ http请求报文） 从服务器向客户端返回的响应命令 （ http响应报文） http方法 请求命令又称为 http方法。 每个http请求报文都包含一个方法 get: 从服务器向客户端发送命名的资源put: 从客户端向服务器传送的数据 ，通常指定了资源的存放位置DELETE: 从服务器中删除命名资源POST: 将客户端的数据发送到服务器网关HEAD: 仅仅发命名资源响应中的HTTP首部 http响应报文 中会携带一个状态码 一个web页面通常不是单个资源，而是一组资源的集合 报文类型 请求报文 响应报文 结构 起始行 首部字段 主体： 数据 TCP/IP 模拟工具1 telnet 2 nc netcat Set-Cookie:online-uuid=EE66B808-C848-77DE-D9F2-0BB4BD5F91B1; path=/; httponly HTTP首部字段1 通用首部字段Pragma:no-cacheTransfer-Encoding:chunked 2 请求首部字段Host:mff.st.edusoho.cnReferer:http://mff.st.edusoho.cn/course_set/1353/manage/baseUser-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 3 响应首部字段Server:nginx/1.4.6 (Ubuntu) 4 实体首部字段Allow: 资源可支持的HTTP方法 另外的分类方法， 端到端首部 和 逐跳首部 逐跳首部 connectioin keep-alive proxy-authenticate proxy-authentication Trailer：报文末端的首部一览 TE：传输编码的优先级 Transfer-Encoding：指定报文主体的传输编码方式 upgrade: 升级为其他协议]]></content>
